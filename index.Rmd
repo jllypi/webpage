@@ -2,18 +2,17 @@
 title: "LeaRneR"
 image: "tobi.jpg"
 links:
-  - label: LinkedIn
-    url: "https://linkedin.com/"
+  - label: '<i class="fab fa-linkedin"></i> Linkedin'
+    url: "https://linkedin.com/ target = '_blank'"
   - label: Twitter
-    url: "https://twitter.com/"
-  - label: GitHub
-    url: "https://github.com/jllypi"
+    url: "https://twitter.com/ target = '_blank'"
+  - label: '<i class="fab fa-github"></i> Github'
+    url: "https://github.com/jllypi target = '_blank'"
   - label: Email
-    url: "mailto:02vies-diners@icloud.coml"
+    url: "mailto:02vies-diners@icloud.coml target = '_blank'"
 output:
   postcards::jolla
+site: distill::distill_website
 ---
  
-I am a classically trained data scientist living in the San Francisco Bay Area. 
-Currently I work on the Oculus team at Facebook. I love talking about baseball, 
-true crime podcasts, and causal inference.
+Passionné par les données et les entreprises, je BLABLABLA
