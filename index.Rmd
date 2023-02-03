@@ -1,18 +1,53 @@
 ---
-title: "LeaRneR"
-image: "tobi.jpg"
+title: "R Libre"
+image: "assets/logo.jpg"
 links:
   - label: '<i class="fab fa-linkedin"></i> Linkedin'
-    url: "https://linkedin.com/ target = '_blank'"
-  - label: Twitter
-    url: "https://twitter.com/ target = '_blank'"
+    url: "https://linkedin.com/in/jean-louis-lacolley target = '_blank'"
   - label: '<i class="fab fa-github"></i> Github'
     url: "https://github.com/jllypi target = '_blank'"
-  - label: Email
+  - label: '<i class="fab fa fa-envelope"></i> Email'
     url: "mailto:02vies-diners@icloud.coml target = '_blank'"
 output:
-  postcards::jolla
+  postcards::trestles
 site: distill::distill_website
 ---
- 
-Passionné par les données et les entreprises, je BLABLABLA
+
+# Bienvenue !
+
+Bienvenue sur notre site dédié à **R**, le langage de programmation **simple**, **puissant** et **flexible** pour l'analyse de données. 
+
+Nous croyons que toutes les entreprises peuvent tirer parti de R pour résoudre leurs défis liés à la "data" de données les plus complexes. 
+
+Cependant, l'apprentissage d'un nouveau langage peut être intimidant. C'est pourquoi nous avons créé ce site pour vous présenter R de manière simple et didactique. 
+Avec notre approche accessible, vous pourrez rapidement commencer à utiliser R commencer à analyser toutes les données de votre entreprise.
+
+Nous espérons que grâce à ce site, vous pourrez découvrir en un rien de temps les bénéfices que R peut vous apporter à votre entreprise. 
+
+Alors, prêt à partir à la découverte d'un nouvel univers, celui de l'analyse de données ?
+
+
+
+## Pourquoi analyser ses données ?
+
+L'analyse des données est une **étape cruciale** pour toutes les entreprises, quelle que soit leur taille. Loin d'être réservée qu'aux seules "grandes entreprises", les TPE/PME peuvent aussi trouver un réel intêret à prendre du recul sur le quotidien pour analyser les actions passées.
+
+Difficultés majeures : 
+trouver quoi chercher (paradoxe de Menon)
+Trouver où chercher ? info dispersées 
+
+
+Il permet de comprendre les tendances du marché, les habitudes des consommateurs et les performances de l'entreprise. Cela aide les entreprises à prendre des décisions informées, à améliorer leurs opérations et à augmenter leur rentabilité.
+
+Voici quelques exemples de données qui peuvent être analysées pour une TPE/PME :
+
+  - Les données de vente : en analysant les données de vente, une entreprise peut déterminer les produits les plus populaires, les périodes de l'année où les ventes sont les plus élevées et les régions géographiques où les ventes sont les plus fortes. Cela peut aider l'entreprise à optimiser ses opérations et à cibler ses efforts de marketing.
+  - Les données de marketing : en analysant les données de marketing, une entreprise peut évaluer l'efficacité de ses campagnes publicitaires et déterminer les canaux de marketing les plus rentables. Cela peut aider l'entreprise à allouer ses ressources de manière plus efficace et à maximiser son retour sur investissement.
+  - Les données de satisfaction client : en analysant les données de satisfaction client, une entreprise peut évaluer la qualité de son service et identifier les domaines dans lesquels il peut s'améliorer. Cela peut aider l'entreprise à améliorer sa réputation et à fidéliser sa clientèle.
+  - Les données financières : en analysant les données financières, une entreprise peut évaluer sa rentabilité et identifier les opportunités d'économies de coûts. Cela peut aider l'entreprise à équilibrer ses dépenses et à investir dans les initiatives qui offrent le plus grand retour sur investissement.
+
+
+En conclusion, l'analyse des données est une partie importante de la gestion d'une entreprise. Elle peut aider les TPE/PME à prendre des décisions informées, à améliorer leurs opérations, à et à augmenter leur rentabilité.
+
+
+<small> Ce site est réalisé entièrement en **R** avec le package `distill` ``r::emoji::emoji("face_with_raised_eyebrow")`` </small>

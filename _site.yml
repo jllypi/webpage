@@ -1,8 +1,9 @@
 name: "."
-title: "LeaRneR"
+title: "Home"
 description: |
   LeaRneR
 output_dir: "docs"
+theme: r_libre_theme.css
 navbar:
   right:
     - text: "Home"
