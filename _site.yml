@@ -1,13 +1,18 @@
 name: "."
-title: "Home"
+title: "Accueil"
 description: |
   LeaRneR
 output_dir: "docs"
 theme: r_libre_theme.css
 navbar:
   right:
-    - text: "Home"
-      href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Pour commencer"
+      href: pour_commencer.html
+    - text: "Tutoriels"
+      menu:
+          - text: "Premier Cours"
+          - href : premier_cours.html
+          - text: "Google Analytics"
+          - href: google_analytics.html
+    
 output: distill::distill_article

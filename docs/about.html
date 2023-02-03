@@ -88,22 +88,22 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Home: About this site</title>
+  <title>Accueil: About this site</title>
 
   <meta property="description" itemprop="description" content="Some additional details about the website"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Home: About this site"/>
+  <meta property="og:title" content="Accueil: About this site"/>
   <meta property="og:type" content="article"/>
   <meta property="og:description" content="Some additional details about the website"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Home"/>
+  <meta property="og:site_name" content="Accueil"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Home: About this site"/>
+  <meta property="twitter:title" content="Accueil: About this site"/>
   <meta property="twitter:description" content="Some additional details about the website"/>
 
   <!--/radix_placeholder_meta_tags-->
@@ -2176,11 +2176,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --aside-size:      12px;
     --fig-cap-size:    13px;
     /*-- Main font colors --*/
-    --title-color:     #01161E;
-    --header-color:    #01161E;
-    --body-color:      #01161E;
-    --aside-color:     #01161E;
-    --fig-cap-color:   #01161E;
+    --title-color:     #333333;
+    --header-color:    #333333;
+    --body-color:      #333333;
+    --aside-color:     #333333;
+    --fig-cap-color:   #333333;
     /*-- Specify custom fonts ~~~ must be imported above   --*/
     --heading-font:    Loto;
     --mono-font:       Roboto;
@@ -2191,9 +2191,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- ARTICLE METADATA --*/
   d-byline {
     --heading-size:    0.6rem;
-    --heading-color:   rgba(0, 0, 0, 0.5);
+    --heading-color:   #333333
     --body-size:       0.8rem;
-    --body-color:      rgba(0, 0, 0, 0.8);
+    --body-color:      #333333
   }
 
   /*-- ARTICLE TABLE OF CONTENTS --*/
@@ -2217,7 +2217,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --title-size:       15px;
     --text-color:       rgba(255, 255, 255, 0.8);
     --text-size:        12px;
-    --hover-color:      #f2545b;
+    --hover-color:      #fd3b5e;
     --bkgd-color:       #274060;
   }
 
@@ -2232,32 +2232,32 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* Add any additional CSS rules below                      */
 
   h1 {
-    color: #f2545b;
+    color: #274060;
     font-size: 36px;
   }
 
   h2 {
-    color: #124559;
+    color: #274060;
     font-size: 32px;
   }
 
   h3 {
-    color: #124559;
+    color: #274060;
     font-size: 28px;
   }
 
   d-article h1 {
-    color: #f2545b !important;
+    color: #274060 !important;
     font-size: 38px;
   }
 
   d-article h2 {
-    color: #124559 !important;
+    color: #274060 !important;
     font-size: 34px;
   }
 
   d-article h3 {
-    color: #124559 !important;
+    color: #274060 !important;
     font-size: 30px;
   }
 
@@ -2267,23 +2267,23 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
 
   a:hover {
-    color: #007bff;
+    color: #fd3b5e;
   }
 
 
   /*change body color*/
 
   body {
-    color: #01161E;
+    color: #333333;
     font-size: 14px;
   }
 
   p {
-    color: #01161E;
+    color: #333333;
   }
 
   .license {
-    color: #01161E;
+    color: #333333;
     font-size: 14px !important;
     margin-left: 50px;
     margin-right: 60px;
@@ -2353,14 +2353,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   */
 
   .contributor_org {
-    font-family: "Amaranth" !important;
+    font-family: "Lato" !important;
     font-size: 25px;
     text-decoration: none;
     background-color: transparent;
   }
 
   .contributor_ppl{
-    font-family: "Open Sans" !important;
+    font-family: "Lato" !important;
     font-size: 20px;
   }
 
@@ -2570,11 +2570,23 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <header class="header header--fixed" role="banner">
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
-<a href="index.html" class="title">Home</a>
+<a href="index.html" class="title">Accueil</a>
 </div>
 <div class="nav-right">
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
+<a href="pour_commencer.html">Pour commencer</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Tutoriels
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<span class="nav-dropdown-header">Premier Cours</span>
+<a href="premier_cours.html"></a>
+<span class="nav-dropdown-header">Google Analytics</span>
+<a href="google_analytics.html"></a>
+</div>
+</div>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
