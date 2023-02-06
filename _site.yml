@@ -6,8 +6,8 @@ output_dir: "docs"
 theme: r_libre_theme.css
 navbar:
   right:
-    - text: "Pour commencer"
-      href: pour_commencer.html
+    - text: "Publications"
+      href: publications.html
     - text: "Tutoriels"
       menu:
           - text: "Premier Cours"

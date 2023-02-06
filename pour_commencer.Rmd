@@ -1,9 +1,9 @@
 ---
 title: "Untitled"
-# description: |
-#   A new article created using the Distill format.
+description: |
+  A new article created using the Distill format.
 # author:
-#   - name: Nora Jones 
+# - name: Nora Jones
 #     url: https://example.com/norajones
 #     affiliation: Spacely Sprockets
 #     affiliation_url: https://example.com/spacelysprokets

@@ -1,0 +1,29 @@
+---
+title: "Untitled"
+description: |
+  A new article created using the Distill format.
+author:
+  - name: Nora Jones 
+    url: https://example.com/norajones
+    affiliation: Spacely Sprockets
+    affiliation_url: https://example.com/spacelysprokets
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Publications
+
+  - Germain, O. et Lacolley, J-L. (2012). [La décision existe-t-elle ?](https://www.cairn.info/revue-francaise-de-gestion-2012-6-page-47.htm) *Revue Française de Gestion*, *225*, pp. 47--59.
+  
+					\item Germain, O. et Lacolley, J-L. (2010). \href{https://www.indianjournals.com/}{Opportunities and Strategic Management}. \textit{ITTM Journal of Management and IT}, \textit{Vol. 4, n° 2}, pp. 1--12.
+					\item Germain, O. et Lacolley, J-L. (2010). \href{https://www.cairn.info/revue-francaise-de-gestion-2010-7-page-189.htm}{Une écologie des opportunités. Entretien avec Robert A. Burgelman}. \textit{Revue Française de Gestion}, \textit{206}, pp. 189--196.
+
+
+
+
+
+
